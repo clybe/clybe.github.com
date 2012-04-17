@@ -1,36 +1,14 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 分享程序员生活的点点滴滴
+tagline: 暂时只有Android了。。
 ---
 {% include JB/setup %}
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+## 我的动态
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +16,20 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+## Skills
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+1. 解决gem install jekyll遇到如下错误的解决方法
 
+ERROR:  Error installing jekyll:
+liquid requires RubyGems version >= 1.3.7
+
+使用 $ sudo gem update --system
+参考 [http://stackoverflow.com/questions/4904786/how-do-you-install-jekyll-on-osx](http://stackoverflow.com/questions/4904786/how-do-you-install-jekyll-on-osx)
+
+
+## 待学习
+    
+1. [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+2. Fork http://github.com/plusjade/jekyll-bootstrap to custom my theme
 
